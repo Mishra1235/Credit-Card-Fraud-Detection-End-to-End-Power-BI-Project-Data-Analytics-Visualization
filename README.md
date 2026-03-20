@@ -2,6 +2,7 @@ Credit Card Fraud Detection Analysis (Power BI Project)
 
 
 📌 Project Overview
+
 "First, I acquired the dataset titled 'Credit Card Fraud Detection Analysis', from Kaggle." 
 And Now This project focuses on analyzing credit card transaction data to identify fraud patterns using Power BI. The goal is to uncover insights related to fraudulent activities based on transaction behavior, location, time, and transaction types.
 
