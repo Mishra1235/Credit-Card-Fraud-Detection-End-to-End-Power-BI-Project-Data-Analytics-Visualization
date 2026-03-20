@@ -1,7 +1,10 @@
 Credit Card Fraud Detection Analysis (Power BI Project)
+
+
 📌 Project Overview
 "First, I acquired the dataset titled 'Credit Card Fraud Detection Analysis', from Kaggle." 
 And Now This project focuses on analyzing credit card transaction data to identify fraud patterns using Power BI. The goal is to uncover insights related to fraudulent activities based on transaction behavior, location, time, and transaction types.
+
 
 🎯 Objectives
 
@@ -12,6 +15,7 @@ Analyze fraud patterns based on time, location, and transaction type
 Calculate key performance indicators (KPIs)
 
 Build an interactive Power BI dashboard for visualization
+
 
 📂 Dataset Information
 
@@ -31,6 +35,7 @@ Location
 
 Fraud Indicator (0 = Non-Fraud, 1 = Fraud)
 
+
 🧹 Data Cleaning (Power Query)
 
 Performed data cleaning using Power Query Editor:
@@ -46,6 +51,7 @@ Removed duplicate transactions using TransactionID
 Handled missing/null values
 
 Validated data quality using column profiling
+
 
 ⚙️ Feature Engineering
 
@@ -64,6 +70,7 @@ Hour Column
 Hour = HOUR('credit_card_fraud_dataset'[TransactionDate])
 
 These features helped analyze fraud patterns across different time intervals.
+
 
 📊 Key Metrics (DAX Measures)
 
@@ -84,6 +91,7 @@ Fraud Rate = DIVIDE(SUM(credit_card_fraud_dataset[IsFraud]), COUNT(Fraud[Transac
 Total Transaction Amount
 
 Total Amount = SUM(credit_card_fraud_dataset[Amount])
+
 
 📈 Data Analysis & Visualizations
 1. Fraud by Location
@@ -107,6 +115,7 @@ Column chart identifying peak hours of fraudulent activity
 Identified high-risk locations and transaction types
 
 Analyzed fraud patterns during late-night hours
+
 
 📊 Dashboard Features
 
